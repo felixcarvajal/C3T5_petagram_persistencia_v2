@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">materialdesign</string>
+
+    <string name="app_holamundo">¡Hola Mundo!</string>
+
+    <string name="pnombre">nombre</string>
+
+    <string name="praiting">raiting</string>
+
+    <string name="ap_titulo">Petagram</string>
+
+    <string name="apt5_titulo">Petagram Top 5</string>
+
+    <string name="clic_top_cinco">Clic Top 5</string>
+    <string name="clic_fab">Clic en boton flotante cámara</string>
+
+    <!--<string name="lista_serializada_mascotas">lista_serializada_mascotas</string>-->
+    <!--<string name="lista_serializada_top_cinco">lista_serializada_top_cinco</string>-->
+
+
+    <string name="menu_opciones_about">Acerca de</string>
+
+    <string name="menu_opciones_contact">Contacto</string>
+
+
+    <string name="afc_usuario">Usuario de GMAIL (Ej. jperez@gmail.com)</string>
+
+    <string name="afc_contrasenna">Contraseña de GMAIL</string>
+
+    <string name="afc_para">Para (destinatario)</string>
+
+    <string name="afc_asunto">Asunto</string>
+
+    <string name="afc_cuerpo">Cuerpo del mensaje</string>
+
+    <string name="afc_enviar">Enviar comentario</string>
+
+    <string name="afc_titulo">Contacto</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fp_nombre_mascota">Nombre Mascota</string>
+
+
+    <string name="aad_titulo">Acerca De</string>
+    <string name="aad_nombre">Félix Carvajal</string>
+    <string name="aad_empleo">Desarrollador de Software</string>
+    <string name="aad_correo">nanoce@gmail.com</string>
+
+
+    <string name="dog_bruto">Bruto</string>
+    <string name="dog_cocky">Cocky</string>
+    <string name="dog_jack">Jack</string>
+    <string name="dog_kira">Kira</string>
+    <string name="dog_lebre">Lebre</string>
+    <string name="dog_lolo">Lolo</string>
+    <string name="dog_rock">Rock</string>
+    <string name="dog_sammy">Sammy</string>
+    <string name="dog_tile">Tile</string>
+
+</resources>

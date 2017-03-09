@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_formulario_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.dama.fcarvajal.materialdesign.FormularioContacto">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/afc_padding"
+        android:paddingLeft="@dimen/afc_padding"
+        android:paddingRight="@dimen/afc_padding"
+        android:paddingTop="@dimen/afc_padding"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/afc_etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/afc_usuario" />
+
+        <EditText
+            android:id="@+id/afc_etContrasenna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/afc_contrasenna" />
+
+        <EditText
+            android:id="@+id/afc_etPara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/afc_para" />
+
+        <EditText
+            android:id="@+id/afc_etAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/afc_asunto" />
+
+        <EditText
+            android:id="@+id/afc_etCuerpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/afc_cuerpo" />
+
+        <Button
+            android:id="@+id/afc_btnEnviarComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/afc_enviar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
